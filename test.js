@@ -63,7 +63,7 @@ Array.prototype.myReduce = function (fn, init) {
     } 
 }
 
-let arr = [1,2,5,6,7]
+let arr = [1,2,5,6,7,9,`0`]
 arr.myReduce((total, cur, index) => {
     return total + cur
 }, 5)
@@ -71,4 +71,4 @@ arr.myReduce((total, cur, index) => {
 
 
 
-console.log('adsfa12sdf')
+console.log('adsfa212sdf')
