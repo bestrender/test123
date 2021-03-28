@@ -71,4 +71,4 @@ arr.myReduce((total, cur, index) => {
 
 
 
-console.log(123123)
+console.log('adsfasdf')
