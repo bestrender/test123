@@ -27,7 +27,7 @@ function getData (cb) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             reject('error')
-        }, 3000)
+        }, 30000)
     }).then((res) => {
         cb(res)
     }, (err) => {
@@ -63,7 +63,7 @@ Array.prototype.myReduce = function (fn, init) {
     } 
 }
 
-let arr = [1,2,5,6]
+let arr = [1,2,5,6,7]
 arr.myReduce((total, cur, index) => {
     return total + cur
 }, 5)
@@ -71,4 +71,4 @@ arr.myReduce((total, cur, index) => {
 
 
 
-console.log('adsfasdf')
+console.log('adsfa12sdf')
